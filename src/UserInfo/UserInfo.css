@@ -1,0 +1,38 @@
+.users {
+    display: flex;
+    align-items: center;
+    max-width: 250px;
+    border: 1px solid rgba(128, 128, 128, 0.25);
+    border-radius: 10px;
+    background-color: rgba(204, 204, 204, 0.22);
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 10px rgba(128, 128, 128, 0.72);
+}
+
+.users__info {
+
+    list-style: none;
+}
+
+.users__info p {
+    margin: 0;
+}
+
+.users__picture {
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 20px 0 10px;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.italic {
+    text-transform: initial;
+}
+
+.bold {
+    font-weight: bold;
+}
