@@ -1,3 +1,7 @@
+li {
+    list-style: none;
+}
+
 .users {
     display: flex;
     align-items: center;
@@ -7,16 +11,18 @@
     background-color: rgba(204, 204, 204, 0.22);
     padding: 10px;
     margin-bottom: 10px;
+    margin-left: 20px;
     box-shadow: 0 5px 10px rgba(128, 128, 128, 0.72);
 }
 
 .users__info {
 
-    list-style: none;
 }
 
 .users__info p {
-    margin: 0;
+    font-style: italic;
+    margin: 5px 0 0 0;
+    font-size: .9rem;
 }
 
 .users__picture {

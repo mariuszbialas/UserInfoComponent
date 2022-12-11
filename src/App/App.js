@@ -4,4 +4,4 @@ import './App.css';
 import {UserInfo} from "../UserInfo/UserInfo";
 import {people} from "../data/users";
 
-export const App = () => <ul><UserInfo users={people}/></ul>;
+export const App = () => <UserInfo users={people}/>;
