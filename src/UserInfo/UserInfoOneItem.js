@@ -8,6 +8,7 @@ export const UserInfoOneItem = ({user}) => {
             <div  className={"users__info"}>
                 <span className={"capitalize bold"}>{user.first_name} </span>
                 <span className={"capitalize"}>{user.last_name}</span>
+                <hr/>
                 <p>{user.username}</p>
             </div>
         </div>
